@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-top: 25px;
+}
+
+header h1{
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    margin: 3px;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
